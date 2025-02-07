@@ -1,0 +1,22 @@
+{
+  "name": "cypress-typescript-docker",
+  "version": "1.0.0",
+  "main": "index.js",
+"scripts": {
+  "cy:open": "cypress open",
+  "cy:run": "cypress run",
+  "docker:build": "docker build -t cypress-tests .",
+  "docker:run": "docker run --rm cypress-tests"
+}
+,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "cypress": "^14.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
