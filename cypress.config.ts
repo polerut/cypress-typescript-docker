@@ -3,7 +3,13 @@ import { defineConfig } from "cypress";
 export default defineConfig({
   e2e: {
     setupNodeEvents(on, config) {
-      // implement node event listeners here
+      on("after:screenshot", (details) => {
+        console.log(`📸 Скриншот сохранен: ${details.path}`);
+      });
     },
+    screenshotOnRunFailure: false,
+    screenshotsFolder: "cypress/screenshots",
+    video: false,
+    videosFolder: "cypress/videos",
   },
 });
