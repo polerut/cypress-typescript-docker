@@ -20,6 +20,7 @@ This project demonstrates my **ability to write clean and scalable automation te
 ```sh
 git clone https://github.com/YOUR-GITHUB-USERNAME/quadient-cypress-tests.git
 cd quadient-cypress-tests
+```
 
 ---
 
@@ -54,4 +55,7 @@ It is structured using the **Page Object Model (POM)** to ensure **scalability, 
 - **TypeScript** (strict typing for better maintainability)
 - **Docker** (containerized test execution)
 - **GitHub** (version control & CI/CD integration)
+
+```
+
 ```
