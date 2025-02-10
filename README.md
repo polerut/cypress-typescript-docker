@@ -20,6 +20,7 @@ This project demonstrates my **ability to write clean and scalable automation te
 ```sh
 git clone https://github.com/YOUR-GITHUB-USERNAME/quadient-cypress-tests.git
 cd quadient-cypress-tests
+docker-compose up --build
 ```
 
 ---
